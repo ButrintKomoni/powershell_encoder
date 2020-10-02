@@ -1,0 +1,1 @@
+$stream = new-object System.IO.StreamReader $respstream; $out = $stream.ReadToEnd(); if ($out.trim() -eq "w00tw00t"){echo "$_ Allowed out"}}
